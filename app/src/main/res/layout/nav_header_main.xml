@@ -14,14 +14,14 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_gravity="end"
         android:layout_width="168dp"
         android:layout_height="176dp"
+        android:layout_gravity="end"
         android:layout_marginTop="27dp"
         android:contentDescription="@string/nav_header_desc"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/profile_image_white_black"
+        app:srcCompat="@drawable/profile_image_pink_white"
         tools:layout_editor_absoluteX="-7dp" />
 
     <TextView
@@ -31,7 +31,7 @@
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         android:text="부산여행\n Busan Travel"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textSize="15dp"
+        android:textSize="17dp"
         tools:layout_editor_absoluteX="126dp"
         tools:layout_editor_absoluteY="58dp"/>
 
