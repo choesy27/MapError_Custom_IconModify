@@ -23,26 +23,31 @@
             <item
                 android:id="@+id/nav_hospital"
                 android:icon="@drawable/ic_local_hospital_black_24dp"
-                android:title="병원" />
+                android:title="병원"
+                android:checkable="true"/>
             <item
                 android:id="@+id/nav_find_hospital"
                 android:icon="@drawable/ic_find_hospital"
-                android:title="병원 검색하기" />
+                android:title="병원 검색하기"
+                android:checkable="true"/>
 
             <item
                 android:id="@+id/nav_parking"
                 android:icon="@drawable/ic_local_parking_black_24dp"
-                android:title="공영 주차장" />
+                android:title="공영 주차장"
+                android:checkable="true"/>
 
             <item
                 android:id="@+id/nav_bus"
                 android:icon="@drawable/ic_directions_bus_black_24dp"
-                android:title="버스" />
+                android:title="버스"
+                android:checkable="true"/>
 
             <item
                 android:id="@+id/nav_disabled_person"
                 android:icon="@drawable/ic_disabled_person"
-                android:title="장애인 편의시설 보유 업소" />
+                android:title="장애인 편의시설 보유 업소"
+                android:checkable="true"/>
         </menu>
 
     </item>
@@ -53,12 +58,14 @@
             <item
                 android:id="@+id/nav_food"
                 android:icon="@drawable/ic_food"
-                android:title="모범음식점" />
+                android:title="모범음식점"
+                android:checkable="true"/>
 
             <item
                 android:id="@+id/nav_find_food"
                 android:icon="@drawable/ic_find_food"
-                android:title="모범음식점 검색하기" />
+                android:title="모범음식점 검색하기"
+                android:checkable="true"/>
 
         </menu>
 
@@ -70,11 +77,13 @@
             <item
                 android:id="@+id/nav_publicart"
                 android:icon="@drawable/ic_publicart"
-                android:title="공공조형물" />
+                android:title="공공조형물"
+                android:checkable="true"/>
             <item
                 android:id="@+id/nav_storytelling"
                 android:icon="@drawable/ic_stroytelling"
-                android:title="스토리텔링 원형정보" />
+                android:title="스토리텔링 원형정보"
+                android:checkable="true"/>
         </menu>
 
     </item>
@@ -85,21 +94,25 @@
             <item
                 android:id="@+id/nav_map"
                 android:icon="@drawable/ic_map"
-                android:title="기본" />
+                android:title="기본"
+                android:checkable="true"/>
             <item
                 android:id="@+id/nav_map2"
                 android:icon="@drawable/ic_map"
-                android:title="위치와 줌" />
+                android:title="위치와 줌"
+                android:checkable="true"/>
 
             <item
                 android:id="@+id/nav_map3"
                 android:icon="@drawable/ic_map"
-                android:title="마커" />
+                android:title="마커"
+                android:checkable="true"/>
 
             <item
                 android:id="@+id/nav_map4"
                 android:icon="@drawable/ic_map"
-                android:title="UI &amp; 오버레이" />
+                android:title="UI &amp; 오버레이"
+                android:checkable="true"/>
 
 
 
