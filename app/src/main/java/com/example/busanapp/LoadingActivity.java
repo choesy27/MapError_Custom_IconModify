@@ -125,6 +125,11 @@ public class LoadingActivity extends AppCompatActivity implements NavigationView
                         new PublicartFragment()).commit();
                 break;
 
+            case R.id.nav_calendar:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new CalendarFragment()).commit();
+                break;
+
             case R.id.nav_map :
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new MapFragment()).commit();

@@ -14,4 +14,12 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="icon_Hospital">병원</string>
+    <string name="icon_Parking">공공주차장</string>
+    <string name="icon_Bus">버스</string>
+    <string name="icon_Disabledperson">장애인 편의시설</string>
+    <string name="icon_Food">모범음식점</string>
+    <string name="icon_Storytelling">스토리텔링</string>
+    <string name="icon_Map">지도</string>
 </resources>
